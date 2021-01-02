@@ -13,8 +13,8 @@ const menu = require("./lib/menu.js")
 
 //Setting
 
-const apivhtear = 'IX7BH5-pDcb9e-IHpkRH-vppw9O-tsLyQs';
-const apibarbar = 'IX7BH5-pDcb9e-IHpkRH-vppw9O-tsLyQs';
+const apivhtear = 'SLpvUgOcMYwIx0pFeELt';
+const apibarbar = 'SLpvUgOcMYwIx0pFeELt';
 const BotName = '❤SAGIRI CHAN❤'; 
 const instagram = 'www.instagram.com/Cogan_112'; 
 const aktif = 'terserah owner';
@@ -356,7 +356,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.tex
 }
 if (text.includes('.nulis')){
   const teks = text.replace(/.nulis /, '')
-    axios.get(`https://st4rz.herokuapp.com/api/nulis?text=${teks}`)
+    axios.get(`https://api.vhtear.com/write?text=${teks}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
