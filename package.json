@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.2.1",
-    "axios": "0.21.1",
+    "axios": "0.21.0",
     "bash": "0.0.1",
     "brainly-scraper": "^1.0.2",
     "cheerio": "^1.0.0-rc.3",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrfzvx12/Arelbot"
+    "url": "git+https://github.com/stylecogan28/Sagiri_Chan4"
   },
   "keywords": [
     "K"
@@ -42,7 +42,7 @@
   "author": "mrf.zvx",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrfzvx12/Arelbot/issues"
+    "url": "https://github.com/stylecogan28/Sagiri_Chan4/issues"
   },
-  "homepage": "https://github.com/mrfzvx12/Arelbot#readme"
+  "homepage": "https://github.com/stylecogan28/Sagiri_Chan4#readme"
 }
