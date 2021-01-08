@@ -14,13 +14,13 @@ const speed = require('performance-now');
 
 const apivhtear = 'F5Hvf2-FD1lwL-7yC6Fd-4RlUli-VGWVg0';
 const apibarbar = 'F5Hvf2-FD1lwL-7yC6Fd-4RlUli-VGWVg0';
-const BotName = '♥♞SAGIRI CHAN♞♥'; 
+const BotName = '♥SAGIRI CHAN♥'; 
 const instagram = 'www.instagram.com/Cogan_112'; 
-const aktif = 'tegantung kuota sayang';
+const aktif = 'tergantung kuota';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:StyleCogan\n' // Nama kamu
-            + 'ORG:♥♞SAGIRI CHAN♞♥;\n' // Nama bot
+            + 'ORG:♥SAGIRI CHAN♥;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=6289509938750:+62 895-0993-8750\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
@@ -75,7 +75,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@cogan_112`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@mrf.zvx`)
 })
 
 conn.on('message-new', async(m) =>
@@ -386,7 +386,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .nuli
 }
 if (text.includes('.nulis')){
   const teks = text.replace(/.nulis /, '')
-    axios.get(`https://api.vhtear.com/write?text=${tulis}`)
+    axios.get(`https://st4rz.herokuapp.com/api/nulis?text=${teks}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
