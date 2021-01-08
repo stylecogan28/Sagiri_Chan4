@@ -16,10 +16,10 @@ const apivhtear = 'F5Hvf2-FD1lwL-7yC6Fd-4RlUli-VGWVg0';
 const apibarbar = 'F5Hvf2-FD1lwL-7yC6Fd-4RlUli-VGWVg0';
 const BotName = '♥♞SAGIRI CHAN♞♥'; 
 const instagram = 'www.instagram.com/Cogan_112'; 
-const aktif = 'tergantung kuota sayang';
+const aktif = 'tegantung kuota sayang';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Style Cogan\n' // Nama kamu
+            + 'FN:StyleCogan\n' // Nama kamu
             + 'ORG:♥♞SAGIRI CHAN♞♥;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=6289509938750:+62 895-0993-8750\n' //Nomor whatsapp kamu
             + 'END:VCARD'
@@ -75,7 +75,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@Cogan_112`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@cogan_112`)
 })
 
 conn.on('message-new', async(m) =>
@@ -386,7 +386,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .nuli
 }
 if (text.includes('.nulis')){
   const teks = text.replace(/.nulis /, '')
-    axios.get(`https://st4rz.herokuapp.com/api/nulis?text=${teks}`)
+    axios.get(`https://api.vhtear.com/write?text=${tulis}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
@@ -1126,7 +1126,7 @@ if (text.includes('.wolf')){
 var porn = text.split(".wolf ")[1];
     var text1 = porn.split("/")[0];
     var text2 = porn.split("/")[1];
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo2&text1=A187&text2=${text2}`).then((res) => {
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo1&text1==${text1}&text2=${text2}`).then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
@@ -1162,7 +1162,7 @@ if (text.includes('.glitch')){
 var porn = text.split(".glitch ")[1];
     var text1 = porn.split("/")[0];
     var text2 = porn.split("/")[1];
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=glitch&text1=${teks1}&text2=${teks2}`).then((res) => {
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=glitch&text1=${text1}&text2=${text2}`).then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
@@ -1179,7 +1179,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .joke
 }
 if (text.includes('.joker')){
 const teks = text.replace(/.joker /, "")
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=jokerlogo&text=${teks}`)
+    axios.get(`https://docs-jojo.herokuapp.com/api/gaming?text=${teks}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
@@ -1233,7 +1233,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .wate
 }
 if (text.includes('.neon')){
 const teks = text.replace(/.neon /, "")
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=neon_light&text1=A187&text2=${teks}`)
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=neon_light&text=${teks}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
