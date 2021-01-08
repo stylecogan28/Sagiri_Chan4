@@ -27,6 +27,8 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 ## Give me Start ⭐ please
 
+## Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah
+
 ## Alat
 
 Download aplikasi termux disini [DOWNLOAD](https://play.google.com/store/apps/details?id=com.termux) 
@@ -90,8 +92,8 @@ Terakhir scan kode QR
 | ------------- | ------------- |
 | Say|✅|
 | Nama ninja|✅|
-| Puisi|✅|
-| Cerpen|✅|
+| Puisi|❌|
+| Cerpen|❌|
 | Tagme|✅|
 | Seberapa gay|✅|
 | Seberapa bucin|✅|
@@ -128,7 +130,7 @@ Terakhir scan kode QR
 
 | TOOLS |Yes|
 | ------------- | ------------- |
-| Nulis|✅|
+| Nulis|❌|
 | Stiker|✅|
 | OCR|✅|
 | Instagram stalker|✅|
@@ -152,6 +154,14 @@ Terakhir scan kode QR
 | Quotes maker|✅|
 | Logo pornhub|✅|
 | Logo e-sport|✅|
+| Logo lion|✅|
+| Logo wolf|✅|
+| Logo ninja|✅|
+| Text neon|✅|
+| Text glitch|✅|
+| Text water|✅|
+| Text Blood|✅|
+
 
 | EDUKASI |Yes|
 | ------------- | ------------- |
@@ -171,9 +181,9 @@ Terakhir scan kode QR
 
 | Others |Yes|
 | ------------- | ------------- |
-| Jadwal tv|✅|
+| Jadwal tv|❌|
 | Jadwal tv (channel)|✅|
-| Jadwal sholat|✅|
+| Jadwal sholat|❌|
 | Info Covid|✅|
 | Info anime|✅|
 | Lirik lagu|✅|
@@ -188,11 +198,13 @@ Terakhir scan kode QR
 | Membuka grup|✅|
 | Ping|✅|
 | Owner|✅|
+| Info|✅|
+| Intro|✅|
 
 ## Contacts
 * [Instagram](https://www.instagram.com/mrf.zvx/)
 * [Facebook](https://www.facebook.com/profile.php?id=100028409167054)
-* My whatsapp bot [Arel Bot](https://wa.me/6282223014661)
+* My whatsapp bot [Arel Bot](https://wa.me/6281219700198)
 
 
 ## Terimakasih untuk
